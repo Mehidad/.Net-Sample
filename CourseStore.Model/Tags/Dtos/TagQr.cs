@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CourseStore.DAL.Entities;
+namespace CourseStore.Model.Tags.Dtos;
 
-public abstract class BaseEntity
+public class TagQr
 {
     public int Id { get; set; }
+    public string TagName { get; set; }
 }

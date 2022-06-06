@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using CourseStore.Model.Framework;
+using CourseStore.Model.Tags.Entities;
 
-namespace CourseStore.DAL.Entities;
+namespace CourseStore.Model.Courses.Entities;
 
 public class Course : BaseEntity
 {
@@ -15,8 +12,7 @@ public class Course : BaseEntity
     public DateTime EndTime { get; set; }
     public int Price { get; set; }
     public string ImageUrl { get; set; }
-    public List<Tag> Tags { get; set; }
-    public List<CourseTeacher> CourseTeachers { get; set; }
-    public List<CourseComment> CourseComments { get; set; }
+    public List<CourseTag> CourseTags { get; set; }
+
 
 }

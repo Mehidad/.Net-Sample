@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseStore.DAL", "CourseStore.DAL\CourseStore.DAL.csproj", "{5A653DF5-42CA-463D-A7F7-CD404C7F56F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CourseStore.DAL", "CourseStore.DAL\CourseStore.DAL.csproj", "{5A653DF5-42CA-463D-A7F7-CD404C7F56F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseStore.WebUI", "CourseStore.WebUI\CourseStore.WebUI.csproj", "{4B82DBAA-C714-4415-A403-5DD391F16D1D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CourseStore.WebUI", "CourseStore.WebUI\CourseStore.WebUI.csproj", "{4B82DBAA-C714-4415-A403-5DD391F16D1D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseStore.BusinessLogic", "CourseStore.BusinessLogic\CourseStore.BusinessLogic.csproj", "{0520E2B6-262D-47B8-A7B3-B25535CE080B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CourseStore.BusinessLogic", "CourseStore.BusinessLogic\CourseStore.BusinessLogic.csproj", "{0520E2B6-262D-47B8-A7B3-B25535CE080B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseStore.Model", "CourseStore.Model\CourseStore.Model.csproj", "{CC954857-36BC-4085-8D9D-22EE77A4BC2B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{0520E2B6-262D-47B8-A7B3-B25535CE080B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0520E2B6-262D-47B8-A7B3-B25535CE080B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0520E2B6-262D-47B8-A7B3-B25535CE080B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC954857-36BC-4085-8D9D-22EE77A4BC2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC954857-36BC-4085-8D9D-22EE77A4BC2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC954857-36BC-4085-8D9D-22EE77A4BC2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC954857-36BC-4085-8D9D-22EE77A4BC2B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
